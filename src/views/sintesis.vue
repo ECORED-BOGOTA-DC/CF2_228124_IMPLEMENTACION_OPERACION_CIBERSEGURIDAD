@@ -3,8 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 En resumen, el componente formativo ofrece una visión integral y práctica de la ciberseguridad, desde la recolección de datos hasta la valoración y gestión de riesgos, proporcionando herramientas y técnicas esenciales para garantizar la seguridad digital en las organizaciones. A continuación, se presenta un mapa conceptual que resume la información de este proceso.
 
     .row.justify-content-center
       .col-lg-10.mb-5
