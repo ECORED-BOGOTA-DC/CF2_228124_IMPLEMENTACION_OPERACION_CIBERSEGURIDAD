@@ -93,18 +93,18 @@
     SlyderA.fondo-personalizado-2.p-md-5.py-5.px-4(data-aos="fade-left")
       .row
         .col-md-6.mb-4.mb-md-0.px-md-5
-          h4 Técnicas Cualitativas
+          h4 Técnicas cualitativas
           p Pueden presentar alto nivel de entendimiento de los datos e información. La relevancia está dada en las respuestas individuales y su nivel de profundidad. Tienen un alto nivel de subjetividad y dependen del conocimiento, experiencia y percepción que un sujeto tiene sobre el objeto de estudio. 
         .col-md-6
           figure
-            img(src='@/assets/curso/tema1-2-slider1.png', alt='Técnicas Cualitativas')
+            img(src='@/assets/curso/tema1-2-slider1.png', alt='Técnicas cualitativas')
       .row
         .col-md-6.mb-4.mb-md-0.px-md-5
-          h4 Técnicas Cuantitativas
-          p Su base fundamental son los datos numéricos, que representan características o detalles particulares de un objeto de estudio. Una gran cantidad de datos sobre uno o más atributos, de un objeto de estudio, que permita generalizar en los resultados obtenidos, facilitando la comprensión y toma la de decisiones.
+          h4 Técnicas cuantitativas
+          p Su base fundamental son los datos numéricos, que representan características o detalles particulares de un objeto de estudio. Una gran cantidad de datos sobre uno o más atributos, de un objeto de estudio, que permita generalizar en los resultados obtenidos, facilitando la comprensión y la toma de decisiones.
         .col-md-6
           figure
-            img(src='@/assets/curso/tema1-2-slider2.png', alt='Técnicas Cuantitativas')      
+            img(src='@/assets/curso/tema1-2-slider2.png', alt='Técnicas cuantitativas')      
       .row
         .col-md-6.mb-4.mb-md-0.px-md-5
           h4 Registro de datos
@@ -121,7 +121,7 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

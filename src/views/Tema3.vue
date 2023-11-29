@@ -53,13 +53,13 @@
             | de red y soluciones empresariales de 
             italic software 
             | de aplicaciones. 
-          p Normalmente, esta infraestructura requiere más energía, espacio físico y dinero que otros tipos de infraestructura. Se instala localmente para uso exclusivo, o privado, de la empresa.” (IBM, 2021)
+          p Normalmente, esta infraestructura requiere más energía, espacio físico y dinero que otros tipos de infraestructura. Se instala localmente para uso exclusivo, o privado, de la empresa”. (IBM, 2021)
         .col-lg-5
           img(src="@/assets/curso/tema3-1-tab1.png", alt="Infraestructura tradicional")
       .row.px-lg-5(titulo="Infraestructura de la nube")
         .col-lg-7
           p “Una infraestructura de TI en la nube es similar a la infraestructura tradicional. Sin embargo, los usuarios finales pueden accederla a través de Internet y tienen la capacidad de usar la virtualización para ocupar recursos informáticos sin realizar instalaciones locales. 
-          p La virtualización conecta los servidores físicos de un proveedor de servicios en cualquier ubicación geográfica. Luego, divide y extrae los recursos, como el almacenamiento, para ponerlos a disposición de los usuarios, prácticamente en cualquier lugar donde haya conexión a Internet. Debido a que la infraestructura en la nube es a menudo pública, normalmente se conoce como una nube pública.” (IBM, 2021)
+          p La virtualización conecta los servidores físicos de un proveedor de servicios en cualquier ubicación geográfica. Luego, divide y extrae los recursos, como el almacenamiento, para ponerlos a disposición de los usuarios, prácticamente en cualquier lugar donde haya conexión a Internet. Debido a que la infraestructura en la nube es a menudo pública, normalmente se conoce como una nube pública”. (IBM, 2021)
         .col-lg-5
           img(src="@/assets/curso/tema3-1-tab2.png", alt="Infraestructura de la nube")  
       .row.px-lg-5(titulo="Principales características de las infraestructuras")
@@ -73,7 +73,7 @@
                 italic software.
             li.mb-0.d-flex
               i.fas.fa-square
-              p.mb-0 Comunicación por servicios de red basados 
+              p.mb-0 Comunicación por servicios de red basados en 
                 italic hardware 
                 | y 
                 italic software. 
@@ -84,12 +84,12 @@
                 | bases de datos, servidores.
             li.mb-0.d-flex
               i.fas.fa-square
-              p.mb-0 Alta Disponibilidad en componentes, principalmente en los componentes de red, servidores de aplicación, 
+              p.mb-0 Alta disponibilidad en componentes, principalmente en los componentes de red, servidores de aplicación, 
                 italic storage 
                 | y energía.
             li.mb-0.d-flex
               i.fas.fa-square
-              p.mb-0 Virtualización; Implementación de múltiples servidores virtuales en hiper visores tales como; 
+              p.mb-0 Virtualización; Implementación de múltiples servidores virtuales en hipervisores tales como; 
                 italic VMware, Proxmox, XenServer, Citrix, Hyper-v, ESX.
             li.mb-0.d-flex
               i.fas.fa-square
@@ -110,19 +110,19 @@
           img(src="@/assets/curso/tema3-1-tab3.png", alt="Principales características de las  infraestructuras")       
       .row.px-lg-5(titulo="Infraestructura y seguridad")
         .col-lg-7
-          p La seguridad juega un papel muy importante en la infraestructura tecnológica y es parte de la misma, pues ésta se integra en componentes que permiten la protección de los datos en la red, servidores, aplicaciones y servicios tecnológicos.
+          p La seguridad juega un papel muy importante en la infraestructura tecnológica y es parte de la misma, pues esta se integra en componentes que permiten la protección de los datos en la red, servidores, aplicaciones y servicios tecnológicos.
         .col-lg-5
           img(src="@/assets/curso/tema3-1-tab4.png", alt="Infraestructura y seguridad")  
       .row.px-lg-5(titulo="Controles de seguridad")
         .col-lg-7
-          p La seguridad, permite la protección de las infraestructuras, a través de algunos controles como los siguientes:
+          p La seguridad permite la protección de las infraestructuras, a través de algunos controles como los siguientes:
           ul.lista-ul--color.lista-acento-botones.mb-0
             li.mb-0.d-flex
               i.fas.fa-square
               | Establecimiento de políticas y procedimientos de seguridad digital.
             li.mb-0.d-flex
               i.fas.fa-square
-              | Direccionamiento par el cumplimiento de la legislación aplicable en relación a las operaciones de la infraestructura tecnológica.
+              | Direccionamiento para el cumplimiento de la legislación aplicable en relación con las operaciones de la infraestructura tecnológica.
             li.mb-0.d-flex
               i.fas.fa-square
               p.mb-0 Protección de dispositivos finales, 
@@ -208,16 +208,16 @@
                 i.fas.fa-square
                 p.mb-0 
                   strong Periféricos:   
-                  | Impresoras, escáneres, lectores láser, entre otros.  
+                  | impresoras, escáneres, lectores láser, entre otros.  
               li.mb-0.d-flex
                 i.fas.fa-square
                 p.mb-0 
-                  strong Software de virtualización: 
+                  strong #[i Software] de virtualización: 
                   italic VMware, Proxmox, XenServer, Citrix, Hyper-v, ESX.
               li.mb-0.d-flex
                 i.fas.fa-square
                 p.mb-0 
-                  strong Software de monitoreo:    
+                  strong #[i Software] de monitoreo:    
                   | monitoreo de red, capacidades y temperaturas.   
           .row.px-lg-5(titulo="Componentes de seguridad más usuales")
             ul.lista-ul--color.lista-acento-botones.mb-0
@@ -230,16 +230,16 @@
               li.mb-0.d-flex
                 i.fas.fa-square
                 p.mb-0 
-                  italic-strong Antimalware.
+                  strong Antimalware.
               li.mb-0.d-flex
                 i.fas.fa-square
                 p.mb-0 
-                  italic-strong Firewall 
+                  strong Firewall 
                   strong de aplicación.  
               li.mb-0.d-flex
                 i.fas.fa-square
                 p.mb-0 
-                  strong IP Tables:  
+                  strong Iptables:  
                   | reglas de acceso en red.
               li.mb-0.d-flex
                 i.fas.fa-square
@@ -262,7 +262,7 @@
                 i.fas.fa-square
                 p.mb-0  
                   strong IDS/IPS:  
-                  | sistema de Detección y prevención de intrusiones.
+                  | sistema de detección y prevención de intrusiones.
               li.mb-0.d-flex
                 i.fas.fa-square
                 p.mb-0  
@@ -299,7 +299,7 @@
           p.mb-0 Hablar de interconexiones de redes y seguridad perimetral, es referirse a las conexiones de red entre los diferentes dispositivos, de acuerdo con los fundamentos de red o 
             italic networking, 
             | incluyendo los dispositivos de seguridad perimetral.
-    p.mb-4(data-aos="fade-right") Para una mejor comprensión de este punto, se debe estudiar atentamente la imagen animada que se muestra en pantalla (ver figura1) y tomar nota de los aspectos que ella explica:
+    p.mb-4(data-aos="fade-right") Para una mejor comprensión de este punto, se debe estudiar atentamente la imagen animada que se muestra en pantalla (ver figura 1) y tomar nota de los aspectos que ella explica:
     .row.justify-content-center(data-aos="fade-left")
       .col-md-10
         .tarjeta.color-primario.p-3

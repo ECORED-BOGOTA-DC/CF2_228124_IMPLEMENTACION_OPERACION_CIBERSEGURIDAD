@@ -12,16 +12,12 @@
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2-infografia.svg', alt='Riesgos de ciberseguridad')
-
+              img(src='@/assets/curso/tema2-infografia.svg', alt='Muestra infografia con riesgos de ciberseguridad -Sistemas de información: pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad. -Sistemas de información: pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad. -Amenazas: las amenazas siempre está presentes y en constante evolución. -Vulnerabilidades: las amenazas aprovechan las vulnerabilidades presentes en los sistemas de información.')
           .tarjeta.borde-acento-contenido.p-3(x="38%" y="1.7%")
-            .h4.mb-2 Sistemas de información
             p.mb-0 Pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad.
           .tarjeta.borde-acento-botones.p-3(x="86.4%" y="60.6%")
-            .h4.mb-2 Amenazas
-            p.mb-0 Las amenazas siempre está presentes y en constante evolución.
+            p.mb-0 Las amenazas siempre están presentes y en constante evolución.
           .tarjeta.borde-secundario.p-3(x="19.7%" y="87.8%")
-            .h4.mb-2 Vulnerabiliades
             p.mb-0 Las amenazas aprovechan las vulnerabilidades presentes en los sistemas de información.
     p.mb-4(data-aos="fade-right") Para ampliar los conocimientos en lo referente a amenazas y vulnerabilidades, se debe explorar el recurso que se propone a continuación:    
     .row.justify-content-center.fondo-personalizado.py-5(data-aos="fade-down")
@@ -43,13 +39,12 @@
       .py-3.py-md-4(titulo="Probabilidad de ocurrencia")
         .row.justify-content-center
           .col-md-10
-            h4 Probabilidad de ocurrencia
             p.mb-4 La valoración se puede dar de manera cualitativa y cuantitativa, por lo general se realiza de manera cualitativa definiendo escalas nominales con referencias numéricas que facilitan los cruces con otras características del análisis de riesgo de ciberseguridad, ver tabla 1.
           .col-md-9.mb-4
             .titulo-sexto.color-acento-botones
               p.mb-0
                 strong Tabla 1. 
-                | Probabilidad de ocurrencia.
+                | Probabilidad de ocurrencia
             .tabla-a.border-diferentes.mb-2
               table
                 tbody.text-center
@@ -87,21 +82,20 @@
       .py-3.py-md-4(titulo="Inventario de amenazas y vulnerabilidades")
         .row.justify-content-center
           .col-md-10
-            h4 Inventario de amenazas y vulnerabilidades
             p.mb-4 Para poder valorar la probabilidad de vulnerabilidades y amenazas hay que condensarlas en riesgos, por medio de un inventario de amenazas y elementos vulnerables asociados. Una representación puede ser como se muestra en la siguiente tabla 2:
           .col-md-10.mb-4
             .titulo-sexto.color-acento-botones
               p.mb-0
                 strong Tabla 2. 
-                | Inventario de amenazas y vulnerabilidades.
+                | Inventario de amenazas y vulnerabilidades
             .tabla-b.tabla-2.color-primario.mb-2
               table  
                 thead.tabla-b__header 
                   tr
                     th(rowspan="2") 
-                      h4.text-white.mb-0 AMENAZA
+                      h4.text-white.mb-0 Amenaza
                     th(rowspan="2")  
-                      h4.text-white.mb-0 TIPO
+                      h4.text-white.mb-0 Tipo
                     th(colspan="3")  
                       h4.text-white.mb-0 Tipo de activos que afecta
                     th(colspan="3") 
@@ -118,9 +112,9 @@
                     th
                       h5.text-white.mb-0 Confidencialidad
                     th
-                      h5.text-white.mb-0 INTEGRIDAD      
+                      h5.text-white.mb-0 Integridad
                     th
-                      h5.text-white.mb-0 DISPONIBILIDAD
+                      h5.text-white.mb-0 Disponibilidad
                     th
                       h5.text-white.mb-0 HW
                     th
@@ -156,7 +150,6 @@
       .py-3.py-md-4(titulo="Valoración de riesgos")
         .row.justify-content-center
           .col-md-10
-            h4 Valoración de riesgos
             p.mb-4 La evaluación de riesgos de ciberseguridad que agrupa amenazas y vulnerabilidades de activos de información se realiza considerando el contexto y el tipo de activo de información, así entonces se puede considerar la siguiente tabla 3 de valoración:
           .col-md-10.mb-4
             .titulo-sexto.color-acento-botones
@@ -170,7 +163,7 @@
                     th(rowspan="2") 
                       h4.text-white.mb-0 Activo de información
                     th(rowspan="2")  
-                      h4.text-white.mb-0 TIPO
+                      h4.text-white.mb-0 Tipo
                     th(colspan="2")  
                       h4.text-white.mb-0 Riesgo 1
                     th(colspan="2")  
@@ -199,7 +192,7 @@
                 tbody.text-center
                   tr.fila-amarillo1
                     td Servidor Web
-                    td Hardware    
+                    td #[i Hardware]    
                     td MA  
                     td 5  
                     td M  
@@ -210,7 +203,7 @@
                     td ...
                   tr.fila-amarillo2
                     td Aplicación
-                    td Software   
+                    td #[i Software]   
                     td A  
                     td 4  
                     td B  
@@ -294,7 +287,7 @@
                         figure
                           img(src='@/assets/curso/tema2-2-ico.svg', alt='imagen decorativa')
                       .col-md-8
-                        p.mb-0 Es importante destacar que para tratar un riesgo se debe implementar controles de ciberseguridad o fortalecer los existentes asociados al riesgo. Esto permite la mitigación del riesgo ya que los controles bien aplicados logran disminuir la probabilidad o impacto de los riesgos.
+                        p.mb-0 Es importante destacar que para tratar un riesgo se debe implementar controles de ciberseguridad o fortalecer los existentes asociados al riesgo. Esto permite la mitigación del riesgo, ya que los controles bien aplicados logran disminuir la probabilidad o impacto de los riesgos.
 
 </template>
 
@@ -303,6 +296,7 @@ export default {
   name: 'Tema2',
   data: () => ({
     modal1: false,
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

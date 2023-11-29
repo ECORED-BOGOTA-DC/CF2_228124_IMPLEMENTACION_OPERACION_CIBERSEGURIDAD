@@ -9,8 +9,8 @@
     .row
       .col-lg-7.mb-4(data-aos="fade-right")
         p La valoración de riesgos es un proceso que inicia con la valuación de los activos de información, luego pasa por la valoración de la probabilidad de ocurrencia de riesgos asociados a los activos y termina con la valoración del impacto.
-        p.fondo-naranja.mb-0.p-4 En términos generales el riesgo es igual a la probabilidad por impacto; 
-          span.etiqueta Riesgo = Probabilidad x Impacto. 
+        p.fondo-naranja.mb-0.p-4 En términos generales, el riesgo es igual a la probabilidad por impacto; 
+          span.etiqueta #[i Riesgo = Probabilidad x Impacto]. 
           | Pero en ciberseguridad el impacto está determinado por el valor del activo de información por el impacto general de las dimensiones de impacto organizacionales. 
       .col-lg-5.mb-4(data-aos="fade-left")
         figure
@@ -58,10 +58,11 @@
               .indicador--click(v-if="mostrarIndicador")  
             ModalA.modal-borde-tabla(:abrir-modal.sync="modal1")
               .row.justify-content-center
+                p Analice, esta es una escala de referencia, aplicable a riesgo inherente o riesgo residual.
                 .titulo-sexto.color-acento-botones
                   p.mb-0
                     strong Tabla 8. 
-                    |  Referencia de severidad del riesgo.
+                    | Referencia de severidad del riesgo
                 .tabla-b.tabla-2.color-primario.mb-2
                   table  
                     thead.tabla-b__header 
@@ -85,21 +86,21 @@
                       tr.fila-amarillo2
                         td.text-center 1
                         td.text-center Severo
-                        td El nivel del riesgo es Inadmisible o severo, por lo que es necesario implementar controles en la Organización para mitigar, evitar o compartir el riesgo y llevar el mismo a niveles aceptables.
+                        td El nivel del riesgo es inadmisible o severo, por lo que es necesario implementar controles en la organización para mitigar, evitar o compartir el riesgo y llevar el mismo a niveles aceptables.
                         td.text-center Evitar / Reducir / Transferir
                         td.text-center 70
                         td.text-center 125
                       tr.fila-amarillo1
                         td.text-center 2
                         td.text-center Moderado
-                        td El nivel de riesgo es Tolerable o moderado de acuerdo a los criterios de aceptación de la Organización. Los riesgos en esté nivel deben ser monitoreados para identificar oportunamente los cambios en su valoración.
+                        td El nivel de riesgo es tolerable o moderado de acuerdo a los criterios de aceptación de la organización. Los riesgos en este nivel deben ser monitoreados para identificar oportunamente los cambios en su valoración.
                         td.text-center Aceptar / Monitorear
                         td.text-center 20
                         td.text-center 69  
                       tr.fila-amarillo2
                         td.text-center 3
                         td.text-center Leve
-                        td El nivel de riesgo es Aceptable y se encuentra controlado en la Organización o el mismo es insignificante. Los riesgos en esté nivel se deben revisar periódicamente.
+                        td El nivel de riesgo es aceptable y se encuentra controlado en la organización o el mismo es insignificante. Los riesgos en este nivel se deben revisar periódicamente.
                         td.text-center Aceptar
                         td.text-center 1
                         td.text-center 19  
@@ -190,9 +191,9 @@
                 td Preventivo
                 td 10%
                 td Automático
-                td 20%
-                td Adecuada
                 td 10%
+                td Adecuada
+                td 20%
                 td Documentado
                 td 10%
                 td Actas de comité o actas de reuniones
@@ -444,11 +445,11 @@
             .col-md-4.col-6.mt-3
               img(src='@/assets/curso/tema7-2-ico3.svg', alt='imagen decorativa')  
             .col-md-8.mt-3
-              p.mb-0 La ejecución del control se determina manualmente, mientras que la 
-                strong Solidez individual 
+              p.mb-0 La #[i ejecución del control] se determina manualmente, mientras que la 
+                strong #[i Solidez individual ]
                 | será igual al 
-                strong diseño del control 
-                | por la ejecución del control.
+                strong #[i diseño del control ] 
+                | #[i por la ejecución del control].
       .col-md-6.cajas-numeros(data-aos="fade-left")
         .row.mb-4
           .titulo-numero-acento-contenido 
@@ -461,19 +462,19 @@
               p.mb-0 Así entonces: 
               p Solidez individual del control
               p.mb-0.resaltado-caja.py-2.px-4
-                strong Si = Diseño del control X Ejecución del control
+                strong #[i Si = Diseño del control X Ejecución del control]
     Separador
     #t_7_3
     .titulo-segundo.color-primario(data-aos="fade-right")
       .h2 7.3  La importancia del control
-    p.mb-4(data-aos="fade-right") La Importancia del control se determina manualmente; habiéndola determinado es más sencillo determinar la solidez del conjunto de control, que es el resultado que ayudará a determinar si el control puede, o no, disminuir un riesgo. La solidez del conjunto de control es igual a la solidez individual del control más la Importancia, sobre tres (3).
+    p.mb-4(data-aos="fade-right") La #[i Importancia del control] se determina manualmente; habiéndola determinado es más sencillo determinar #[i la solidez del conjunto de control], que es el resultado que ayudará a determinar si el control puede, o no, disminuir un riesgo. La #[i solidez del conjunto de control] es igual a la #[i solidez individual del control más la Importancia, sobre tres (3)].
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10.fondo-rosado
         .row.align-items-center.justify-content-center.py-md-4.p-4
           .col-md-3.col-9.mb-md-0.mb-3
             img.px-md-3(src='@/assets/curso/tema7-3-imagen.svg', alt='imagen decorativa') 
           .col-md-8
-            h5 Solidez del conjunto de control, Sc = (solidez individual del control + Importancia) / 3
+            h5 #[i Solidez del conjunto de control, Sc = (solidez individual del control + Importancia) / 3]
     p.mb-4(data-aos="fade-right") Se debe tener muy presente los aspectos que se muestran en el siguiente recurso, sobre la importancia del control y la solidez del conjunto de controles; no olvidar la toma de nota sobre ellos:
     AcordeonB(tipo="b" clase-tarjeta="tarjeta border-bottom")(data-aos="fade-left")
       .row.px-lg-5(titulo="División sobre tres")
@@ -491,7 +492,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0
             strong Tabla 10. 
-            | Referencia para determinarla solidez del conjunto de controles
+            | Referencia para determinar la solidez del conjunto de controles
         .tabla-b.tabla-2.color-primario.mb-2
           table  
             thead.tabla-b__header 
@@ -537,7 +538,7 @@
         figcaption Nota. Tomado de Modelo MSPI. MinTic. (2016).        
       .row.px-lg-5(titulo="Solidez del conjunto de controles")
         .col-lg-9
-          p Cuando se aplican varios controles en el tratamiento de un riesgo, el promedio de la Solidez del conjunto de control de los controles aplicados, determina la Solidez del conjunto de controles para la disminución de la probabilidad e/o impacto.
+          p Cuando se aplican varios controles en el tratamiento de un riesgo, el promedio de la #[i Solidez del conjunto de control] de los controles aplicados, determina la #[i Solidez del conjunto de controles] para la disminución de la probabilidad e/o impacto.
         .col-lg-3.col-8
           img.px-md-4(src="@/assets/curso/tema7-3-tab4.svg", alt="Solidez del conjunto de controles")  
       .row.px-lg-5(titulo="Aplicación de controles a riesgos")      
@@ -590,29 +591,35 @@
       .h2 7.4  Riesgo residual
     .row
       .col-lg-7.mb-4(data-aos="fade-right")
-        p El riesgo residual, consiste en el riesgo repercutido o resultante, después de que se aplican controles o medidas para la reducción de los mismos.
+        p El riesgo residual consiste en el riesgo repercutido o resultante, después de que se aplican controles o medidas para la reducción de los mismos.
       .col-lg-5.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema7-4-imagen.jpg', alt='imagen decorativa')    
     p.mb-4(data-aos="fade-right") Se debe prestar atención a los siguientes aspectos a tener en cuenta en lo referente al riesgo residual:
     .row.justify-content-center
-      .col-md-10
-        .row
-          .col-md-6.mb-lg-0(data-aos="fade-right")
+      .col-12
+        .row.justify-content-center
+          .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             .tarjeta-avatar
               img(src='@/assets/curso/tema7-4-tarjeta1.svg' alt='AvatarTop')
               .tarjeta.color-primario.fondo-morado1
                 .text-white.p-4
                   h3.text-center Su determinación
                   p.text-center La determinación del riesgo residual se realiza a partir de que un control disminuye la probabilidad o impacto de un riesgo.
-          .col-md-6.mb-lg-0(data-aos="fade-left")
+          .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
             .tarjeta-avatar
               img(src='@/assets/curso/tema7-4-tarjeta2.svg' alt='AvatarTop')
               .tarjeta.color-acento-contenido.fondo-morado2
                 .text-white.p-4
                   h3.text-center ¿Qué debe haberse hecho?
-                  p.text-center Para determinar riesgos, es importante que se haya realizado un adecuado inventario, evaluación de controles y aplicación de los mismos a los riesgos del catálogo de riesgos, según corresponda.
-                  p.text-center Una vez que se tengan los riesgos residuales se deben aplicar actividades de tratamiento para aquellos que como resultado, dieron críticos, altos o muy altos, según se considere.
+                  p.text-center.mb-4 Para determinar riesgos, es importante que se haya realizado un adecuado inventario, evaluación de controles y aplicación de los mismos a los riesgos del catálogo de riesgos, según corresponda.
+          .col-md-8.col-lg-4(data-aos="fade-right")
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema7-4-tarjeta1.svg' alt='AvatarTop')
+              .tarjeta.color-primario.fondo-morado1
+                .text-white.p-4
+                  h3.text-center Acciones de tratamiento
+                  p.text-center Una vez que se tengan los riesgos residuales, se deben aplicar actividades de tratamiento para aquellos que como resultado, dieron críticos, altos o muy altos, según se considere.
 
 </template>
 

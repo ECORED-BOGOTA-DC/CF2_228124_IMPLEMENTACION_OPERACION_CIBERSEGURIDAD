@@ -19,16 +19,16 @@
             | Activos de información.
           li.mb-0.d-flex
             i.fas.fa-square
-            | Riesgos; (Amenazas, principios afectados por amenazas, elementos vulnerables).
+            | Riesgos; (amenazas, principios afectados por amenazas, elementos vulnerables).
           li.mb-0.d-flex
             i.fas.fa-square
             | Probabilidad de riesgos.
           li.mb-0.d-flex
             i.fas.fa-square
-            | Dimensiones de Impactos organizacionales.
+            | Dimensiones de impactos organizacionales.
           li.mb-0.d-flex
             i.fas.fa-square
-            | Cálculo del Riesgo inherente.
+            | Cálculo del riesgo inherente.
           li.mb-0.d-flex
             i.fas.fa-square
             | Controles y aplicación de controles al catálogo de riesgos.
@@ -55,7 +55,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0
             strong Tabla 12. 
-            |  Referencia matriz de riesgos.
+            | Referencia matriz de riesgos
         .tabla-b.tabla-2.color-primario.mb-2
           table  
             thead.tabla-b__header 
@@ -70,11 +70,11 @@
                 th.morado-2
                   p.text-white.mb-0 Valor activo
                 th.morado-2
-                  p.text-white.mb-0 Probabilidad Total
+                  p.text-white.mb-0 Probabilidad total
                 th.morado-2
-                  p.text-white.mb-0 Impacto General
+                  p.text-white.mb-0 Impacto general
                 th.morado-2
-                  h5.text-white.mb-0 Riesgo Inherente
+                  h5.text-white.mb-0 Riesgo inherente
                 th.morado-3
                   p.text-white.mb-0 Controles      
                 th.morado-3
@@ -134,8 +134,8 @@
       .h2 8.2  Plan de tratamiento de riesgos
     .row
       .col-lg-7.mb-4(data-aos="fade-right")
-        p Una vez se tenga la matriz de riesgos se debe desarrollar un plan de tratamiento de riesgos 
-          strong PTR
+        p Una vez se tenga la matriz de riesgos se debe desarrollar un Plan de Tratamiento de Riesgos 
+          strong (PTR)
           | . En ciberseguridad, consiste en una serie de actividades a desarrollar, en función de riesgos de ciberseguridad no aceptables, severos o críticos, resultantes del proceso de análisis de riesgos; tales actividades buscan fortalecer, corregir o implementar controles de ciberseguridad para la reducción de riesgos asociados a los activos de información.
       .col-lg-5.mb-4(data-aos="fade-left")
         figure
@@ -148,7 +148,7 @@
             ul.lista-ul--color.lista-acento-botones
               li.mb-0.d-flex
                 i.fas.fa-square
-                | Activo de Información con riesgos críticos.
+                | Activo de información con riesgos críticos.
               li.mb-0.d-flex
                 i.fas.fa-square
                 | Riesgos residuales asociados.
@@ -172,7 +172,7 @@
                 | Prioridad.  
               li.mb-0.d-flex
                 i.fas.fa-square
-                | Fecha de Implementación de las actividades.
+                | Fecha de implementación de las actividades.
               li.mb-0.d-flex
                 i.fas.fa-square
                 | Observaciones.                    
