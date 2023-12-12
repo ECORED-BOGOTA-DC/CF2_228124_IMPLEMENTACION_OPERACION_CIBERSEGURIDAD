@@ -61,7 +61,7 @@
                 p Analice, esta es una escala de referencia, aplicable a riesgo inherente o riesgo residual.
                 .titulo-sexto.color-acento-botones
                   p.mb-0
-                    strong Tabla 8. 
+                    strong Tabla 4. 
                     | Referencia de severidad del riesgo
                 .tabla-b.tabla-2.color-primario.mb-2
                   table  
@@ -491,7 +491,7 @@
         p Esta es la referencia para determinar la solidez del conjunto de controles:
         .titulo-sexto.color-acento-botones
           p.mb-0
-            strong Tabla 10. 
+            strong Tabla 5. 
             | Referencia para determinar la solidez del conjunto de controles
         .tabla-b.tabla-2.color-primario.mb-2
           table  
@@ -544,7 +544,7 @@
       .row.px-lg-5(titulo="Aplicación de controles a riesgos")      
         .titulo-sexto.color-acento-botones
           p.mb-0
-            strong Tabla 11. 
+            strong Tabla 6. 
             | Referencia de aplicación de controles a riesgos
         .tabla-b.tabla-2.color-primario.mb-2
           table  

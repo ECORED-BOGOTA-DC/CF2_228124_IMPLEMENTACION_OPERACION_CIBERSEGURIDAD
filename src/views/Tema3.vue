@@ -53,13 +53,13 @@
             | de red y soluciones empresariales de 
             italic software 
             | de aplicaciones. 
-          p Normalmente, esta infraestructura requiere más energía, espacio físico y dinero que otros tipos de infraestructura. Se instala localmente para uso exclusivo, o privado, de la empresa”. (IBM, 2021)
+          p Normalmente, esta infraestructura requiere más energía, espacio físico y dinero que otros tipos de infraestructura. Se instala localmente para uso exclusivo, o privado, de la empresa” (IBM, 2021).
         .col-lg-5
           img(src="@/assets/curso/tema3-1-tab1.png", alt="Infraestructura tradicional")
       .row.px-lg-5(titulo="Infraestructura de la nube")
         .col-lg-7
           p “Una infraestructura de TI en la nube es similar a la infraestructura tradicional. Sin embargo, los usuarios finales pueden accederla a través de Internet y tienen la capacidad de usar la virtualización para ocupar recursos informáticos sin realizar instalaciones locales. 
-          p La virtualización conecta los servidores físicos de un proveedor de servicios en cualquier ubicación geográfica. Luego, divide y extrae los recursos, como el almacenamiento, para ponerlos a disposición de los usuarios, prácticamente en cualquier lugar donde haya conexión a Internet. Debido a que la infraestructura en la nube es a menudo pública, normalmente se conoce como una nube pública”. (IBM, 2021)
+          p La virtualización conecta los servidores físicos de un proveedor de servicios en cualquier ubicación geográfica. Luego, divide y extrae los recursos, como el almacenamiento, para ponerlos a disposición de los usuarios, prácticamente en cualquier lugar donde haya conexión a Internet. Debido a que la infraestructura en la nube es a menudo pública, normalmente se conoce como una nube pública” (IBM, 2021).
         .col-lg-5
           img(src="@/assets/curso/tema3-1-tab2.png", alt="Infraestructura de la nube")  
       .row.px-lg-5(titulo="Principales características de las infraestructuras")
