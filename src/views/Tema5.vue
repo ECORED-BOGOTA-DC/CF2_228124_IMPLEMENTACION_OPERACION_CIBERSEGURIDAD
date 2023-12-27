@@ -19,7 +19,7 @@
             figure
               img(src='@/assets/curso/tema5-cta.svg', alt='imagen decorativa')
           .col-lg-7.mb-4.mb-md-0
-            .titulo-segundo.mb-4
+            .titulo-segundo.color-primario.mb-4
               .h3 Inventario de activos y evaluación de impacto de riesgos
             p.mb-4 Estudie este punto, a profundidad, en el Anexo. Analice, uno a uno, los elementos conceptuales y operativos que allí se muestran y, de ser posible, tome nota en su libreta personal de apuntes.
             a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_Inventario_activos_evaluacion_impacto_riesgos.pdf')" target="_blank" type="application/pdf")

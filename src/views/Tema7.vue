@@ -151,6 +151,13 @@
           h3.mb-0 1
       .row.bloque-borde-acento-botones.p-4.py-3
         p.mt-4 Para comenzar, analice y comprenda esta tabla de referencia para la evaluación de controles.
+
+        .col-lg-11
+          .titulo-sexto.color-acento-botones
+            p.mb-0
+              strong Tabla 5. 
+              | Evaluación de controles
+
         .tabla-b.tabla-3.color-primario.mb-2
           table  
             thead.tabla-b__header 
@@ -238,7 +245,7 @@
                 td - -
                 td - -
                 td - -
-                td Check list
+                td <i>Checklist</i>
                 td - -
                 td - -  
               tr.text-center.fila-amarillo2
@@ -368,12 +375,16 @@
           h3.mb-0 4
       .row.bloque-borde-acento-contenido.p-4.py-3(data-aos="fade-right")
         p.mt-4 Analice, ahora, esta tabla referencia para determinar la ejecución, solidez e importancia de controles.
+
+        .col-lg-11
+          .titulo-sexto.color-acento-botones
+            p.mb-0
+              strong Tabla 6. 
+              | Ejecución, solidez e importancia de control       
+        
         .tabla-b.tabla-3.color-primario.mb-2
           table  
-            thead.tabla-b__header 
-              tr
-                th(colspan="11")  
-                  h4.text-white.mb-0 Ejecución, solidez e importancia del control
+            thead.tabla-b__header
               tr
                 th.morado-2
                   h5.text-white.mb-0 N°
@@ -491,7 +502,7 @@
         p Esta es la referencia para determinar la solidez del conjunto de controles:
         .titulo-sexto.color-acento-botones
           p.mb-0
-            strong Tabla 5. 
+            strong Tabla 7. 
             | Referencia para determinar la solidez del conjunto de controles
         .tabla-b.tabla-2.color-primario.mb-2
           table  
@@ -544,7 +555,7 @@
       .row.px-lg-5(titulo="Aplicación de controles a riesgos")      
         .titulo-sexto.color-acento-botones
           p.mb-0
-            strong Tabla 6. 
+            strong Tabla 8. 
             | Referencia de aplicación de controles a riesgos
         .tabla-b.tabla-2.color-primario.mb-2
           table  
@@ -591,7 +602,7 @@
       .h2 7.4  Riesgo residual
     .row
       .col-lg-7.mb-4(data-aos="fade-right")
-        p El riesgo residual consiste en el riesgo repercutido o resultante, después de que se aplican controles o medidas para la reducción de los mismos.
+        p El riesgo residual, consiste en el riesgo repercutido o resultante, después de que se aplican controles o medidas para la reducción de los mismos.
       .col-lg-5.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema7-4-imagen.jpg', alt='imagen decorativa')    

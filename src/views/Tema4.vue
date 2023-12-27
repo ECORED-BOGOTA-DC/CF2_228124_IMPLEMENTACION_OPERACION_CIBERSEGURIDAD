@@ -109,7 +109,7 @@
         .col-md-6
           p “Es un escáner de vulnerabilidades con el cual se pueden realizar evaluaciones de seguridad profundas y de alta velocidad, tiene soporte a través de 
             italic Tenable Community, 
-            | y es ideal para educadores, estudiantes e individuos que inician sus carreras en ciberseguridad” Basado en tenable.com (2021).
+            | y es ideal para educadores, estudiantes e individuos que inician sus carreras en ciberseguridad”. Basado en tenable.com (2021).
       .row.px-lg-5(titulo="Vega")
         .col-md-6.mb-md-0.mb-4
           figure
@@ -118,8 +118,7 @@
         .col-md-6
           p "Es un escáner de seguridad web gratuito y de código abierto y una plataforma de prueba de seguridad web para probar la seguridad de las aplicaciones web.
             italic-strong Vega 
-            | puede ayudarlo a encontrar y validar SQL 
-            italic Injection, Cross-Site Scripting 
+            | puede ayudarlo a encontrar y validar SQL Injection, Cross-Site Scripting 
             | (XSS), información confidencial divulgada inadvertidamente y otras vulnerabilidades. Está escrito en 
             italic Java, 
             | basado en GUI y se ejecuta en Linux, OS X y Windows" Subgraph.com/vega (2021).
@@ -153,7 +152,7 @@
             figure
               img(src='@/assets/curso/tema4-tarjeta2.svg', alt='Parrot OS')
         h3.text-white.text-center Parrot OS
-        p.text-white.text-center Es una distribución GNU / Linux basada en Debian y diseñada pensando en la seguridad y la privacidad. Incluye un laboratorio portátil completo para todo tipo de operaciones de seguridad cibernética, desde pentesting hasta análisis forense digital e ingeniería inversa, pero también incluye todo lo necesario para desarrollar su propio 
+        p.text-white.text-center Es una distribución GNU / Linux basada en Debian y diseñada pensando en la seguridad y la privacidad. Incluye un laboratorio portátil completo para todo tipo de operaciones de seguridad cibernética, desde <i>pentesting</i> hasta análisis forense digital e ingeniería inversa, pero también incluye todo lo necesario para desarrollar su propio 
           italic software 
           | o mantener sus datos seguros - Parrotsec.org (2021).
 

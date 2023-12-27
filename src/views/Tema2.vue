@@ -12,7 +12,7 @@
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2-infografia.svg', alt='Muestra infografia con riesgos de ciberseguridad -Sistemas de información: pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad. -Sistemas de información: pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad. -Amenazas: las amenazas siempre está presentes y en constante evolución. -Vulnerabilidades: las amenazas aprovechan las vulnerabilidades presentes en los sistemas de información.')
+              img(src='@/assets/curso/tema2-infografia.svg', alt='Muestra infografia con riesgos de ciberseguridad -Sistemas de información: pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad. -Sistemas de información: pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad. -Amenazas: las amenazas siempre están presentes y en constante evolución. -Vulnerabilidades: las amenazas aprovechan las vulnerabilidades presentes en los sistemas de información.')
           .tarjeta.borde-acento-contenido.p-3(x="38%" y="1.7%")
             p.mb-0 Pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad.
           .tarjeta.borde-acento-botones.p-3(x="86.4%" y="60.6%")

@@ -49,12 +49,12 @@
             p.mb-0 La matriz de riesgos se convierte en instrumento clave para lograr que la organización gestiones y determinar con la mayor objetividad, todos y cada uno de los riesgos relevantes y no relevantes, que afectarían o no, y en qué medida, la ciberseguridad y la seguridad de la información, así como también la seguridad general de la infraestructura, el talento humano, las redes de servicios, los procesos, etc.
             .linea-personalizada-2
               img(src="@/assets/curso/linea-amarillo-2.png", alt="Linea decoración amarillo")
-    p.mb-4(data-aos="fade-right") Diligenciar la matriz de riesgos, es una acción sencilla que implica analizar los procesos, funciones y tareas que, en la organización, desarrollan tanto sus colaboradores como, incluso, los activos mismos de información. Visualice y analice la referencia de matriz de riesgos que le presentamos, ver tabla 12.
+    p.mb-4(data-aos="fade-right") Diligenciar la matriz de riesgos, es una acción sencilla que implica analizar los procesos, funciones y tareas que, en la organización, desarrollan tanto sus colaboradores como, incluso, los activos mismos de información. Visualice y analice la referencia de matriz de riesgos que le presentamos, ver la siguiente tabla.
     .row.justify-content-center(data-aos="fade-left")
       .col-md-10
         .titulo-sexto.color-acento-botones
           p.mb-0
-            strong Tabla 7. 
+            strong Tabla 9. 
             | Referencia matriz de riesgos
         .tabla-b.tabla-2.color-primario.mb-2
           table  
@@ -193,7 +193,7 @@
                             figure
                               img(src='@/assets/curso/tema8-2-modal1.svg', alt='imagen decorativa')
                           .col-md-8
-                            p.mb-0 Una vez se haya realizado el Plan de Tratamiento de Riesgos se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
+                            p.mb-0 Una vez se haya realizado el Plan de Tratamiento de Riesgos, se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
               .col-6
                 a.boton.color-acento-botones.indicador__container.text-white.text-center.modal-centrado(@click="modal2 = true")
                   span Ver más
