@@ -46,6 +46,8 @@
                 strong Tabla 1. 
                 | Probabilidad de ocurrencia
             .tabla-a.border-diferentes.mb-2
+              .tabla-b__header
+                h4.mb-0 Probabilidad
               table
                 tbody.text-center
                   tr.fila-amarillo1
